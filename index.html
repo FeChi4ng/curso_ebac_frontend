@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codigo_bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>World Games</title>
+</head>
+<body>
+    <header id="cabecalho"  class="text-bg-dark">
+        <div class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <h1 id="titulo">World</h1>
+                <h1>Games</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Mais jogados">Mais jogados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Releases">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Promoções">Promoções</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://blog.br.playstation.com/tachyon/sites/4/2024/09/2580a43b4b5ee4859c3fb0fcdcaf024e35a1f9a5.jpg" alt="Jogo GOD OF WAR"/>
+                    <div class="carousel-caption">
+                        <h2>GOD OF WAR</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://preview.redd.it/in-25-years-of-gaming-grounded-is-only-the-2nd-game-i-have-v0-1ybkux2cydma1.jpg?width=1080&crop=smart&auto=webp&s=a22f970f82c87bbebd2cd3af1df19890003689a7" alt="Jogo GROUNDED" />
+                    <div class="carousel-caption">
+                        <h2>GROUNDED</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/97e9f5fa6e50c185d249956c6f198a2652a9217e69a59ecd.jpg" alt="Jogo Spíder man 2">
+                    <div class="carousel-caption">
+                        <h2>SPIDER MAN 2</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <section id="Mais jogados">
+            <h2>Os mais jogados</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            <time>Outubro de 2018</time>
+                        </div>
+                        <img src="https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08519_00/12/i_3da1cf7c41dc7652f9b639e1680d96436773658668c7dc3930c441291095713b/i/icon0.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Red Dead Redemption 2</h4>
+                            <p class="card-text">Estados Unidos, 1899. O fim da era do velho oeste se aproxima, e os xerifes caçam as últimas gangues fora da lei. Quem não se rende ou sucumbe, acaba morto. Depois de tudo dar errado em um roubo na cidade.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer">Plataformas: PlayStation 4, PlayStation 5, Xbox Series X/S, Windows e MacOS</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            <time>Setembro de 2013</time>
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/8/80/Grand_Theft_Auto_V_capa.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">GTA 5</h4>
+                            <p class="card-text">O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer align-items-end">
+                                <p>Plataformas: Plataformas: PlayStation 4, PlayStation 5, Xbox Series X/S.</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Fevereiro de 2022
+                        </div>
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Elden Ring</h4>  
+                            <p class="card-text">Elden Ring é relacionada com a Rainha Marika. É um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer">
+                                <p>Plataformas: Xbox Series X/S e Windows</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="Releases">
+            <h2>Lançamentos</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Agosto de 2024
+                        </div>
+                        <img src="https://sm.ign.com/ign_br/game/s/star-wars-/star-wars-outlaws-1_dv7x.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Star Wars Outlaws</h4>
+                            <p class="card-text">Desbrave o primeiro jogo de mundo aberto de Star Wars™. Explore locais distintos pela galáxia, tanto lendários quanto novos.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer">
+                                <p>Plataformas: PlayStation 5, Xbox Series X/S, GeForce Now, Windows e Amazon Luna</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Janeiro de 2024
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/2/21/Suicide_Squad_Kill_the_Justice_League_capa.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Suicide Squad</h4>
+                            <p class="card-text">Suicide Squad: Kill the Justice League é um jogo de tiro em terceira pessoa que desafia o gênero, onde os vilões mais sem caráter devem fazer o impossível: Matar a Liga da Justiça.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer">
+                                <p>Plataformas: PlayStation 5, Xbox Series X/S e Windows</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Setembro de 2024
+                        </div>
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202406/0500/8f15268257b878597757fcc5f2c9545840867bc71fc863b1.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Astro Bot</h4>
+                            <p class="card-text">A nave-mãe PS5® foi destruída, deixando ASTRO e sua tripulação de bots espalhada pelas galáxias.</p>
+                            <div class="d-flex justify-content-end"><a href="#" class="btn btn-secondary">Ver mais</a></div>
+                            <footer class="card-footer">
+                                <p>Plataformas: PlayStation 5 e Android</p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer text-bg-dark">
+    <div class="container">
+        <p id="copy" class="text-center">&copy; 2024 - Todos os direitos reservados.</p>
+    </div>
+</footer>
+    <script src="codigo_bootstrap/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
