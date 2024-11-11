@@ -1,0 +1,81 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #585858;
+}
+
+section .carousel-item {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #5e5d5d;
+    color: #ff2f00;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-carenada .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #b8b8b8;
+}
+
+#sobre-a-loja, 
+#minhas-favoritas {
+    background-color: #8f8d8d70;
+}
+
+#carenadas,
+#big-trail {
+    background-color: #000000da;
+    color: #fff;
+}
+
+#naked{
+    background-color: #fff;
+}
+
+.text-colored {
+    color: #db330e;
+}
+
+.nav-carenada .nav-link.active,
+#fale-conosco button {
+    background-color: #e9360e;
+    color: #fff;
+}
+
+.nav-carenada .nav-link:hover {
+    color: #db330e;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

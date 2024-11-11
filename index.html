@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Super Bikes</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">Super Bikes</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegation">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#favoritas" class="nav-link">
+                            Minhas favoritas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#carenadas" class="nav-link">
+                            Motos carenadas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#naked" class="nav-link">
+                            Motos Naked
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#big-trail" class="nav-link">
+                            Motos big trail
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active display-6" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2017/03/29/21/27/motorcycle-2186589_1280.jpg" alt="Moto s1000rr 2024">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2014/07/31/23/10/biker-407123_1280.jpg" alt="Moto hornet 2024">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2022/06/08/05/43/motorbike-7249769_1280.jpg" alt="GS 1250 2024">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <buton type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></buton>
+                    <buton type="button" data-bs-target="#carousel" data-bs-slide-to="1"></buton>
+                    <buton type="button" data-bs-target="#carousel" data-bs-slide-to="2"></buton>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container container-moto">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://storage.googleapis.com/images-homolog-moto.usadosbr.com/img/2022/09/19/img166609-1663625954-v580x435.jpg" class="d-block w-100 rounded" alt="Foto da loja de moto">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, architecto harum placeat quia, ipsa ab aliquam eum unde fugit temporibus dolore neque vel quam qui ut non deserunt sapiente!
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">os eventos</span></h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic dicta neque quasi illum cumque suscipit eaque a magnam aperiam, eius accusamus, nisi laboriosam dolores id quod labore delectus, itaque vero.
+                            </p>
+                            <ul>
+                                <li>Evento 1</li>
+                                <li>Evento 2</li>
+                                <li>Evento 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="favoritas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center display-6">Minhas <span class="text-colored">Favoritas</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://www.encontracarros.com.br/upload/honda-motos/honda-cbr-600f_04.jpg" class="d-block w-100 rounded mb-2" alt="moto esportiva">
+                        <h3 class="section-title text-colored fs4">
+                            CBR-600F 2014
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed modi alias facilis corporis, numquam doloribus ad. Officia excepturi est dolorem itaque, eaque debitis hic laborum maxime optio? Qui, eveniet.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://moto-station.com/wp-content/uploads/2018/05/01/341_normal-3.jpg" class="d-block w-100 rounded mb-2" alt="moto esportiva Naked">
+                        <h3 class="section-title text-colored fs4">
+                            Hornet-2003/2004
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed modi alias facilis corporis, numquam doloribus ad. Officia excepturi est dolorem itaque, eaque debitis hic laborum maxime optio? Qui, eveniet.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://carango.com.br/f.php?w=810&h=620&cc=0&zc=1&src=https://carango.nyc3.digitaloceanspaces.com/images/veiculos/2024/05/honda-nc-700-2013-700x-gasolina-123963-rh14ny.jpg" class="d-block w-100 rounded mb-2" alt="moto big trail">
+                        <h3 class="section-title text-colored fs4">
+                            Honda NC-700 2013
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sed modi alias facilis corporis, numquam doloribus ad. Officia excepturi est dolorem itaque, eaque debitis hic laborum maxime optio? Qui, eveniet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="carenadas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Motos <span class="text-colored">carenadas</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-carenada">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#honda" class="fw-bold text-start nav-link text-colored active">Honda</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#yamaha" class="fw-bold text-start nav-link text-colored">Yamaha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bmw" class="fw-bold text-start nav-link text-colored">BMW</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ducati" class="fw-bold text-start nav-link text-colored">Ducati</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="honda">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2023/08/honda-cbr600rr-2024-2-1024x683-1.jpg" alt="CBR-600RR">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-600RR 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motorede.com.br/wp-content/uploads/2020/07/cbr650r-2020-01.jpg" alt="CBR-650R">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-650R 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.pastorecc.com.br/site/photos/cars/1195/bg_fBHysKHyYA8Ykex5qPgh.jpeg" alt="CBR-650f">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-650f 2018</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2023/08/honda-cbr600rr-2024-2-1024x683-1.jpg" alt="CBR-600RR">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-600RR 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motorede.com.br/wp-content/uploads/2020/07/cbr650r-2020-01.jpg" alt="CBR-650R">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-650R 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.pastorecc.com.br/site/photos/cars/1195/bg_fBHysKHyYA8Ykex5qPgh.jpeg" alt="CBR-650f">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-650f 2018</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2023/08/honda-cbr600rr-2024-2-1024x683-1.jpg" alt="CBR-600RR">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-600RR 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motorede.com.br/wp-content/uploads/2020/07/cbr650r-2020-01.jpg" alt="CBR-650R">
+                                        <h5 class="text-colored fw-bold mt-2">CBR-650R 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="yamaha">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://carrosbemmontados.com.br/wp-content/uploads/2024/09/Yamaha-YZF-R1-3.jpg" alt="Moto R1">
+                                        <h5 class="text-colored fw-bold mt-2">R1 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://carbon2race.com/wp-content/uploads/2016/05/DSC0249-scaled.jpg" alt="Moto R6">
+                                        <h5 class="text-colored fw-bold mt-2">R6 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://carrosbemmontados.com.br/wp-content/uploads/2024/09/Yamaha-YZF-R1-3.jpg" alt="Moto R1">
+                                        <h5 class="text-colored fw-bold mt-2">R1 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://carrosbemmontados.com.br/wp-content/uploads/2024/09/Yamaha-YZF-R1-3.jpg" alt="Moto R1">
+                                        <h5 class="text-colored fw-bold mt-2">R1 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bmw">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWsVqkQUEOcajlYmxVjOVWjesCTqC81tuTSw&s" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">S1000RR-2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.shopcar.com.br/stored/news/1358770584_99654.jpg" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">S1000RR-2013</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ducati">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://preview.redd.it/2024-panigale-v4-ducati-cleveland-v0-o6okdipw59bc1.jpeg?auto=webp&s=055c18beb38cde418e3ceed47b65e66ecb55cc5b" alt="Moto da Ducati">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati panigale v4 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://preview.redd.it/2024-panigale-v4-ducati-cleveland-v0-o6okdipw59bc1.jpeg?auto=webp&s=055c18beb38cde418e3ceed47b65e66ecb55cc5b" alt="Moto da Ducati">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati panigale v4 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="naked" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Motos <span class="text-colored">naked</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-carenada">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hondan" class="fw-bold text-start nav-link text-colored active">Honda</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#yamahan" class="fw-bold text-start nav-link text-colored">Yamaha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bmwn" class="fw-bold text-start nav-link text-colored">BMW</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ducatin" class="fw-bold text-start nav-link text-colored">Ducati</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="hondan">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2023/05/Honda-Hornet-1000.jpeg" alt="Moto da Honda">
+                                        <h5 class="text-colored fw-bold mt-2">Hornet 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://s2-autoesporte.glbimg.com/I5fInR0dZWB3qA8HHcyEtz_h3L4=/0x0:4500x3000/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/R/A/R4GVIVS7mSadHlGRcZaA/honda-cb-1000r-2-45-.jpg" alt="Moto da Honda">
+                                        <h5 class="text-colored fw-bold mt-2">CB-1000 2020</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="yamahan">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.yamaha-motor.com.br/file/v4498663521502965656/products/lateral-mtseries-mt09-321-abs-30086-fx01-img-01-v01-desktop.jpg" alt="Mt09">
+                                        <h5 class="text-colored fw-bold mt-2">MT-09 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motos.net.br/wp-content/uploads/yamaha-xj6-preco-e-fotos.jpg" alt="xj6">
+                                        <h5 class="text-colored fw-bold mt-2">XJ6</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bmwn">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motoo.com.br/fotos/2022/10/960_720/bmw_m-1000-r_2022_11_12102022_50952_960_720.jpg" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">M-1000R</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://img2.icarros.com/dbimg/imgadicionalnoticia/4/57742_1" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">S1000R</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ducatin">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images.ctfassets.net/x7j9qwvpvr5s/Gu4QM2NlKTVkGeJ9Du9YT/8e279699e4d94fff2846b1fe5dec7972/Streetfighter-V4-Red-Y20-04-Gallery-1920x1080.jpg" alt="Moto da Ducati">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati Streetfighter V4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGJGtDpua5suFjeEyh1sWh4F_PuZdOkFCjw&s" alt=" Moto da Ducati">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati monster 1200</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="big-trail" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Motos <span class="text-colored">Big trail</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-carenada">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hondab" class="fw-bold text-start nav-link text-colored active">Honda</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#yamahab" class="fw-bold text-start nav-link text-colored">Yamaha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bmwb" class="fw-bold text-start nav-link text-colored">BMW</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ducatib" class="fw-bold text-start nav-link text-colored">Ducati</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="hondab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motox.com.br/publix/imagens2019/99965101_Honda_CRF_1000L_Africa_Twin_Adventure_Sport.jpg" alt="moto africa twin">
+                                        <h5 class="text-colored fw-bold mt-2">Africa Twin 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://images.noticiasautomotivas.com.br/img/f/honda-nc-750x-2024-4.jpg" alt="moto nc-750x">
+                                        <h5 class="text-colored fw-bold mt-2">Nc-750x / 2024</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="yamahab">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2022/04/RDUR8739.jpg" alt="moto da yamaha">
+                                        <h5 class="text-colored fw-bold mt-2">Tracer 900GT</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.motonline.com.br/noticia/wp-content/uploads/2020/12/Yamaha-XT-660-R-2.jpg" alt="Moto da yamaha">
+                                        <h5 class="text-colored fw-bold mt-2">XT660 2020</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bmwb">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motos.net.br/wp-content/uploads/quantos-km-por-litro-faz-a-bmw-r-1250-gs-consumo.jpg" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">GS 1250</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://image1.mobiauto.com.br/images/api/images/v1.0/373589778" alt="Moto da BMW">
+                                        <h5 class="text-colored fw-bold mt-2">F 900 GS</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ducatib">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://motociclismoonline.com.br/wp-content/uploads/2024/07/ducati-multistrada-v4-rally-lateral-motociclismoonline-1.jpg" alt="Moto da Ducati big trail">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati Multistrada V4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://as.sobrenet.pt/s/image/tsr/brandm/content/x1050/13uac5nnlwraqmofjeh2thcecm2.jpg" alt="Moto da Ducati big trail">
+                                        <h5 class="text-colored fw-bold mt-2">Ducati Multistrada V2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Reder sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste exemplo nº 145, Bairro Bootstrap avançado - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
