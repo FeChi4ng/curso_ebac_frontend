@@ -1,4 +1,4 @@
-function calcula(base: 20, altura: 50): number {
+function calcula(base: number, altura: number): number {
     return base * altura;
 }
 
@@ -9,7 +9,7 @@ class pessoa {
         this.nome = nome;
     }
 
-    dizOla(): String {
+    dizOla(): string {
         return `${this.nome} disse oi`;
     }
 }
